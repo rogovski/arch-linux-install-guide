@@ -62,13 +62,6 @@ pacman -S yazi         # console file manager
 pacman -S ueberzugpp   # viewing images in terminal
 
 echo "###############################"
-echo "GREETER"
-echo "###############################"
-pacman -S lightdm lightdm-gtk-greeter
-systemctl enable lightdm
-systemctl start lightdm
-
-echo "###############################"
 echo "FONTS"
 echo "###############################"
 pacman -S ttf-dejavu ttf-freefont ttf-liberation ttf-droid terminus-font
